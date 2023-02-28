@@ -56,17 +56,12 @@ struct PasteButtonView: View {
         }
     }
 
-    
-//    func AssignToStateVariable(fieldname:String)  {
-//        stateVariable = stateVariable+" "+ReadFromClipboard()
-//    }
+
     
     var body: some View {
 
         Button(action: {
-            
-            //appending with existing
-            //stateVariable = stateVariable+" "+ReadFromClipboard()
+
             
             //DONT append
             stateVariable = ReadFromClipboard()

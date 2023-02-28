@@ -173,7 +173,6 @@ struct MainView: View {
                     
                     TextEditor(text: $website_Skills)
                         .onChange(of:website_Skills, perform: { value in
-//                            print("Value of text modified to = \(text)")
                             Compare_Skills()
                             
                         })
