@@ -17,9 +17,15 @@ struct Skills_CompareApp: App {
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
 //
             
-            MainView() .frame(minWidth: 800, idealWidth: 800, maxWidth: 800,
-                              minHeight: 800, idealHeight: 800, maxHeight: 800,
-                              alignment: .center).environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            MainView() .frame(minWidth: 800, idealWidth: 800, maxWidth: 800,
+//                              minHeight: 800, idealHeight: 800, maxHeight: 800,
+//                              alignment: .center).environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            
+            
+            
+            MainView().environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
+            
         }
     }
 }

@@ -320,8 +320,8 @@ struct MainView: View {
             }
             .padding()
         }
-        .frame(width: 1200, height: 1000)
-        .clipped()
+//        .frame(width: 1200, height: 1000)
+//        .clipped()
         .background(Color(.sRGB, red: 40/255, green: 44/255, blue: 51/255))
         .background {
             RoundedRectangle(cornerRadius: 4, style: .continuous)
